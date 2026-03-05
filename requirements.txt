@@ -5,14 +5,16 @@ cryptography>=41.0.0
 kalshi-python>=1.0.0
 
 # Scientific computing for Bitcoin trading models
-numpy>=1.24.0
-scipy>=1.11.0
+# (moved to pyproject.toml [project.optional-dependencies] 'data' group for Vercel deployment)
+# numpy>=1.24.0
+# scipy>=1.11.0
 
 # Web dashboard
 flask>=3.0.0
 pytz>=2023.3
 
 # Twitter sentiment analysis
-matplotlib>=3.7.0
-pandas>=2.0.0
-tweepy>=4.16.0
+# (moved to pyproject.toml [project.optional-dependencies] 'data' group for Vercel deployment)
+# matplotlib>=3.7.0
+# pandas>=2.0.0
+# tweepy>=4.16.0
